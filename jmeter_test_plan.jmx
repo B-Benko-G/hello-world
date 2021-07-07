@@ -10,7 +10,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="IP" elementType="Argument">
             <stringProp name="Argument.name">IP</stringProp>
-            <stringProp name="Argument.value">${__P(IP,172.81.177.4)}</stringProp>
+            <stringProp name="Argument.value">${__P(IP,51.68.5.241 )}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="PORT" elementType="Argument">
@@ -55,8 +55,8 @@
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="HTTPSampler.domain"></stringProp>
-          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.domain">51.68.5.241</stringProp>
+          <stringProp name="HTTPSampler.port">8090</stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
           <stringProp name="HTTPSampler.path">/webapp</stringProp>
